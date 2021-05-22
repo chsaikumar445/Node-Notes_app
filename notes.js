@@ -3,6 +3,7 @@ const chalk=require('chalk')
 
 const getNotes =()=>"Your notes is loaded"
 
+
 //adds notes to notes.json
 const addNotes=(title,body)=>{
   const notes = loadNotes()
